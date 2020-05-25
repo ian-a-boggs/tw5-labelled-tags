@@ -1,0 +1,11 @@
+{
+  "plugins": [
+	"tiddlywiki/codemirror-autocomplete",
+	"tiddlywiki/codemirror-mode-css",
+	"tiddlywiki/codemirror-mode-javascript",
+	"tiddlywiki/codemirror-search-replace"
+  ],
+  "languages": [
+    "en-US"
+  ]
+}

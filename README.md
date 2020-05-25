@@ -1,0 +1,31 @@
+# Labelled Tags Plugin for TiddlyWiki5
+
+Labelled Tags is a plugin to add to [TiddlyWiki5](https://www.tiddlywiki.com) tags that have labels. It is in the earliest stages of development, and the author is a complete n00b, so don't expect much.
+
+What does it mean for tags to be labelled? Well, TiddlyWiki5's built-in tagging system allows you to say tiddlers are related to each other by connecting them with tags. But there is nothing built-in to say *how* the tiddlers are related. This is not a problem for most applications; the *how* can often be inferred or easily spelled out in the tiddlers' text fields. But when a wiki has many kinds of relationships that tiddlers can have, labels on the tags can tell you how the tagged tiddlers are related.
+
+This plugin will accommodate inverse relationships, too. So, you will be able to tag Tiddler A with something like "Explains: Tiddler B" and Tiddler B would automatically be tagged with "Explained By: Tiddler A." If the inverse relationship is identical, that would be no problem: you will be able to tag Tiddler A with "Cousin of: Tiddler B" and have Tiddler B automatically tagged with "Cousin of: Tiddler A." This behavior will be configurable on a per-label basis. Of course, users will be able to have one-way labelled tags, and don't even have to use a tiddler title for the tag name, just like with built-in non-labelled tags.
+
+# Release History
+
+There are no releases yet.
+
+# Development
+
+Labelled Tags is developed using [Node.js](https://nodejs.org/en/) and the [ThirdFlow plugin for TiddlyWiki5](http://thediveo.github.io/ThirdFlow/). To get started:
+
+1. If you haven't already, install Node.js and the [Git](https://git-scm.com/) client of your choice. (I'm using [GitHub Desktop](https://desktop.github.com/).)
+
+2. Clone the repository at https://github.com/ian-a-boggs/tw5-labelled-tags.git to your local computer. (With the command line tool, you would navigate to the parent directory, you would type: ``git clone https://github.com/ian-a-boggs/tw5-labelled-tags.git``)
+
+3. Navigate to the "tw5-labelled-tags" directory and type: ``npm install``
+
+Then, whenever you want to work on it:
+
+1. Navigate to the "tw5-labelled-tags" directory and type: ``npm run develop``
+
+2. Use your favorite web browser to visit: http://localhost:8080
+
+3. Make your edits right in TiddlyWiki.
+
+See the documentation for ThirdFlow for more information.

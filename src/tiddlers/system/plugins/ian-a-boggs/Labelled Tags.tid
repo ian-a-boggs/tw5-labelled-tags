@@ -1,0 +1,14 @@
+author: Ian A. Boggs
+core-version: >=5.1.22
+created: 20200525042152386
+description: Labels for Tags
+list: readme license history
+modified: 20200525052024512
+plugin-type: plugin
+source: https://github.com/ian-a-boggs/tw5-labelled-tags
+tags: 
+title: $:/plugins/ian-a-boggs/Labelled Tags
+type: application/json
+version: 0.0.1
+
+{"tiddlers": {}}
